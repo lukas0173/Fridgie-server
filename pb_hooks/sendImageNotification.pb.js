@@ -10,7 +10,7 @@ onRecordAfterCreateSuccess((e) => {
     console.log(`[Hook] 'onRecordAfterCreateSuccess' triggered for record: ${e.record.id}`);
 
     // --- YOUR TOKEN IS CORRECTLY PLACED HERE ---
-    const userPushToken = "ExponentPushToken[FpPqoUAhw-7jFEVRx1KGxx]";
+    const userPushToken = "ExponentPushToken[AtYl23HIremqVOkY2KqSWZ]";
 
     // --- Validation ---
     if (!userPushToken || !userPushToken.startsWith("ExponentPushToken")) {
